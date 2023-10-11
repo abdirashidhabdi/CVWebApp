@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	<title>Login page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<style>
+	 h1 {
+	 font-family: "arial"; 
+	 text-align: left;
+	 font-size:20px; 
+	 color:black;
+	 }
+	</style>
+	<script src="myJavaScript.js"></script>
+ </head>
+ <body>
+	<div class="col-2"><img src="NameBanner.JPG" alt="Banner " /></div>
+	<h1>Login Page</h1>
+	<div class="col-3"><form name="login">
+		Username<input type="text" name="userid" placeholder="Enter username" id="username"/>
+		Password<input type="password" name="pswrd" placeholder="Enter password" id="password"/>
+		<input type="button" onclick= validate() value="Login" id="login"/>
+		<input type="reset" value="Cancel"/>
+	</form></div>
+</body>
+</html>
